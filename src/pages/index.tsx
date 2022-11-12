@@ -10,6 +10,25 @@ const HomePage = () => {
       </Head>
       <TopBackground />
       <JobsList />
+      <div className="attribution">
+        Challenge by{" "}
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Frontend Mentor
+        </a>
+        . Coded by{" "}
+        <a
+          href="https://github.com/carloseag1609"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Carlos Aguirre
+        </a>
+        .
+      </div>
     </>
   );
 };

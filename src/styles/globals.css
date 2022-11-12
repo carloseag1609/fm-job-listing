@@ -2,18 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .desaturated-dark-cyan {
-  background-color: #5ba4a4
+  background-color: #5ba4a4;
 }
 
 .light-grayish-cyan {
-  background-color: #effafa
+  background-color: #effafa;
 }
 
 .light-grayish-cyan {
   background-color: #eef6f6;
-} 
+}
 
 .dark-grayish-cyan {
   background-color: #7b8e8e;
@@ -30,9 +29,17 @@
 
 @keyframes spin-animation {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-      transform: rotate(365deg);
+    transform: rotate(365deg);
   }
+}
+
+.attribution {
+  font-size: 13px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
