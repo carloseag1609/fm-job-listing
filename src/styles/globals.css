@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.desaturated-dark-cyan {
+  background-color: #5ba4a4
+}
+
+.light-grayish-cyan {
+  background-color: #effafa
+}
+
+.light-grayish-cyan {
+  background-color: #eef6f6;
+} 
+
+.dark-grayish-cyan {
+  background-color: #7b8e8e;
+}
+
+.very-dark-grayish-cyan {
+  background-color: #2c3a3a;
+}
+
+.loader {
+  animation: spin-animation 1.5s infinite linear;
+  display: block;
+}
+
+@keyframes spin-animation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(365deg);
+  }
+}
